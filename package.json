@@ -1,0 +1,27 @@
+{
+  "name": "bertpage",
+  "version": "1.0.0",
+  "description": "Professor Dreyfus' Homepage",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/stephanedreyfus/bertPage.git"
+  },
+  "keywords": [
+    "Hubert",
+    "Bert",
+    "Dreyfus",
+    "Philosophy",
+    "Heidegger",
+    "Archives"
+  ],
+  "author": "Stéphane Dreyfus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephanedreyfus/bertPage/issues"
+  },
+  "homepage": "https://github.com/stephanedreyfus/bertPage#readme"
+}
