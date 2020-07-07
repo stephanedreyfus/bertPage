@@ -1,0 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+
+.menu_bar {
+    background: purple;
+    border-bottom: 2px solid crimson;
+}
