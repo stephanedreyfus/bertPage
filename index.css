@@ -6,3 +6,12 @@
     background: purple;
     border-bottom: 2px solid crimson;
 }
+
+#tokyo_bert {
+    height: 50%;
+    width: 50%;
+}
+
+.resources {
+    width: 50%;
+}

@@ -7,18 +7,52 @@
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <nav class="menu_bar navbar-expand-lg">
-
+  <nav class="navbar-expand-lg menu_bar">
+    <a href="http://bertdreyfus.com" class="navbar-brand">Bert's Brand</a>
+    <button class="toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="navlink" href="#">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="navlink">Books</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="navlink">Other Publications</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="navlink">Lectures</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="navlink">Video</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="navlink">Gallery</a>
+        </li>
+      </ul>
+    </div>
   </nav>
-  <img src="bert_photo" alt="Bert Contemplates">
-  <div class="list_title">Resources</div>
-  <ul>
-    <li>Books</li>
-    <li>Other Publications</li>
-    <li>Lectures</li>
-    <li>Television Appearances</li>
-    <li>Gallery</li>
-  </ul>
+  <img id="tokyo_bert" src="./media/tokyo_bert_2004.jpg" alt="Bert Contemplates">
+  <div class="resources">
+    <div class="list_title">Resources</div>
+    <ul>
+      <li>Books</li>
+      <li>Other Publications</li>
+      <li>Lectures</li>
+      <li>Television Appearances</li>
+      <li>Gallery</li>
+    </ul>
+  </div>
   
 </body>
 <script src="index.js"></script>
