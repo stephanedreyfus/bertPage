@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/stephanedreyfus/bertPage/issues"
   },
-  "homepage": "https://github.com/stephanedreyfus/bertPage#readme"
+  "homepage": "https://github.com/stephanedreyfus/bertPage#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0"
+  }
 }
