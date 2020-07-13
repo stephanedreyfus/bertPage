@@ -1,17 +1,14 @@
-* {
-    box-sizing: border-box;
-}
-
 .menu_bar {
     background: purple;
     border-bottom: 2px solid crimson;
 }
 
 #tokyo_bert {
-    height: 50%;
-    width: 50%;
+    max-width: 50%;
+    height: auto;
 }
 
 .resources {
-    width: 50%;
+    max-width: 50%;
+    height: auto;
 }
