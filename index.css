@@ -1,6 +1,6 @@
 .menu_bar {
     background: purple;
-    border-bottom: 2px solid crimson;
+    border-bottom: 3px solid #640411;
 }
 
 .example {
@@ -14,8 +14,10 @@
     max-width: 100%;
 }
 
-.resources {
-    margin: 20%;
+.resources>a {
+    color: #fff;
+    background: purple;
+    border: 1px solid #640411;
 }
 
 /* #nav-list {
