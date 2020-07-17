@@ -17,14 +17,13 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script src="index.js"></script>
-
+    
     <nav class="navbar navbar-expand-lg navbar-dark menu_bar">
       <a class="navbar-brand" href="http://bertdreyfus.com">Bert's Brand</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
+      
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto" id="nav-list">
           <li class="nav-item active">
@@ -48,36 +47,37 @@
         </ul>
       </div>
     </nav>
-
-    <!-- <div class="list-group">
-      <a href="#" class="list-group-item list-group-item-action active">
-        Cras justo odio
-      </a>
-      <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
-      <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
-      <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
-      <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Vestibulum at eros</a>
-    </div> -->
-
-  <section class="container-fluid">
-    <div class="row justify-content-center align-self-center">
-      <div class="col">
-        <img id="tokyo_bert" class="img-fluid" src="./media/tokyo_bert_2004.jpg" alt="Bert Contemplates">
-      </div>
-      <div class="col">
-        <div class="card res-links-card">
-          <h5 class="card-header">Resources</h5>
-          <div class="list-group list-group-flush resources">
-            <a href="#" class="list-group-item list-group-item-action">CV</a>
-            <a href="https://en.wikipedia.org/wiki/Hubert_Dreyfus#Works" class="list-group-item list-group-item-action">Books</a>
-            <a href="#" class="list-group-item list-group-item-action">Lectures</a>
-            <a href="#" class="list-group-item list-group-item-action">Television Appearances</a>
-            <a href="#" class="list-group-item list-group-item-action">Gallery</a>
+    
+    <section class="container-fluid">
+      <dic class="row justify-content-center align-self-center">
+        <div class="col">
+          <div class="card" id="joke-card">
+            <img src="#" class="card-img-top" alt="Silly Bert Image?">
+            <h5 class="card-title">Some Dad Humor</h5>
+            <p class="card-text" id="joke-content">Wait for it...</p>
+          </div>
+        </div>
+      </dic>
+      <div class="row justify-content-center align-self-center">
+        <div class="col">
+          <img id="tokyo_bert" class="img-fluid" src="./media/tokyo_bert_2004.jpg" alt="Bert Contemplates">
+        </div>
+        <div class="col">
+          <div class="card res-links-card">
+            <h5 class="card-header">Resources</h5>
+            <div class="list-group list-group-flush resources">
+              <a href="#" class="list-group-item list-group-item-action">CV</a>
+              <a href="https://en.wikipedia.org/wiki/Hubert_Dreyfus#Works" class="list-group-item list-group-item-action">Books</a>
+              <a href="#" class="list-group-item list-group-item-action">Lectures</a>
+              <a href="#" class="list-group-item list-group-item-action">Television Appearances</a>
+              <a href="#" class="list-group-item list-group-item-action">Gallery</a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  
-</body>
-</html>
+    </section>
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+  </html>

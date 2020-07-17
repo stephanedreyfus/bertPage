@@ -24,6 +24,16 @@
     top: 30%;
 }
 
-/* #nav-list {
-    color: darkgreen;
-} */
+#joke-card {
+    margin: auto;
+    width: 50%;
+}
+
+#joke-card>h5 {
+    text-align: center;
+}
+
+#joke-content {
+    height: 3em;
+    text-align: center;
+}
