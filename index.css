@@ -27,6 +27,8 @@
 #joke-card {
     margin: auto;
     width: 50%;
+    background: #2e453f;
+    color: white;
 }
 
 #joke-card>h5 {
