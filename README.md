@@ -8,3 +8,7 @@ Hopefully, in the future, this archive will allow:
 
 For now it is a rudimentary site meant to garner input from family members so that it can
 be properly modified to please them as much as possible.
+
+#### Links to Add
+- https://www.thecrimson.com/article/1949/11/4/fair-haired-boy-lures-nine-pbert-dreyfus/
+- (Find YouTube links)
