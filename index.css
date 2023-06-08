@@ -1,5 +1,5 @@
 .menu_bar {
-    background: purple;
+    background: rgb(102, 51, 102);
     border-bottom: 3px solid #640411;
 }
 
@@ -16,7 +16,7 @@
 
 .resources>a {
     color: #fff;
-    background: purple;
+    background: rgb(102, 51, 102);
     border: 1px solid #640411;
 }
 
