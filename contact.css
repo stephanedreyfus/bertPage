@@ -1,0 +1,14 @@
+.menu_bar {
+  background: rgb(102, 51, 102);
+  border-bottom: 3px solid #640411;
+}
+
+#contact-form {
+  width: 60%;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
