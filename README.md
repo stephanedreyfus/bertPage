@@ -12,3 +12,6 @@ be properly modified to please them as much as possible.
 #### Links to Add
 - https://www.thecrimson.com/article/1949/11/4/fair-haired-boy-lures-nine-pbert-dreyfus/
 - (Find YouTube links)
+- Add some contact or other emails to the contact page? Not just a form?
+- Go through Nav bar and other links and remove/repair those that don't exist or have broken (Such as UC links)
+- Add another image to top of home page?
